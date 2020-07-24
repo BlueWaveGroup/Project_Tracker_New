@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Effort (Hours) --></label>
+        <name>Actual_Effort_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used for Email Notifications --></help>
+        <label><!-- Bluewave Assignee Email --></label>
+        <name>Bluewave_Assignee_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bluewave Assignee --></label>
+        <name>Bluewave_Assignee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification --></label>
+        <name>Classification__c</name>
+        <picklistValues>
+            <masterLabel>Change Request</masterLabel>
+            <translation><!-- Change Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Idea</masterLabel>
+            <translation><!-- Idea --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Issue</masterLabel>
+            <translation><!-- Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dependency --></label>
+        <name>Dependency__c</name>
+        <relationshipLabel><!-- Child Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of hours estimated to complete this task. --></help>
+        <label><!-- Estimated Effort (Hours) --></label>
+        <name>Estimated_Effort_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Owner --></label>
+        <name>Internal_Owner__c</name>
+        <relationshipLabel><!-- Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Outcome --></label>
+        <name>Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>Phase__c</name>
+        <relationshipLabel><!-- Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>Critical</masterLabel>
+            <translation><!-- Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Mailbox --></label>
+        <name>Project_Mailbox__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Salesforce Record Link --></label>
+        <name>Salesforce_Record_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Analysis</masterLabel>
+            <translation><!-- Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Build</masterLabel>
+            <translation><!-- Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deployment</masterLabel>
+            <translation><!-- Deployment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation><!-- Design --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing</masterLabel>
+            <translation><!-- Testing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Awaiting Bluewave</masterLabel>
+            <translation><!-- Awaiting Bluewave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Customer</masterLabel>
+            <translation><!-- Awaiting Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation><!-- In-Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject__c</name>
+    </fields>
+    <layouts>
+        <layout>Item Layout</layout>
+        <sections>
+            <label><!-- Analysis --></label>
+            <section>Analysis</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Further Information --></label>
+            <section>Further Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please provide an email address for the Bluewave Assignee selected. This is required for notification purposes. --></errorMessage>
+        <name>Bluewave_Assignee_Email_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- A Bluewave Assignee must be identified. --></errorMessage>
+        <name>Bluewave_Assignee_Required</name>
+    </validationRules>
+</CustomObjectTranslation>
