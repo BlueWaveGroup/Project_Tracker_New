@@ -3,20 +3,20 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Project_Record_Page</content>
+        <content>Item_Record_Page</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Project__c</pageOrSobjectType>
+        <pageOrSobjectType>Item__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Project_Record_Page</content>
+        <content>Item_Record_Page</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Project__c</pageOrSobjectType>
+        <pageOrSobjectType>Item__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
@@ -39,20 +39,20 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Item_Record_Page</content>
-        <formFactor>Small</formFactor>
+        <content>Project_Record_Page</content>
+        <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Item__c</pageOrSobjectType>
+        <pageOrSobjectType>Project__c</pageOrSobjectType>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Item_Record_Page</content>
-        <formFactor>Large</formFactor>
+        <content>Project_Record_Page</content>
+        <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>Flexipage</type>
-        <pageOrSobjectType>Item__c</pageOrSobjectType>
+        <pageOrSobjectType>Project__c</pageOrSobjectType>
     </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
